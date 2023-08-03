@@ -1,0 +1,54 @@
+.main-container {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.wiki-search-header {
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    border-color: #d5cdcd;
+}
+
+.wiki-logo {
+    width: 258px;
+    height: auto;
+}
+
+#searchInput {
+    border-radius: 14px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    margin-top: 10px;
+    border-color: #d5cdcd;
+    border-style: solid;
+    font-size: 18px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    font-size: 15px;
+    color: #444444;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+        overflow-x: hidden !important;
+    }
+}
